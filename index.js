@@ -1,8 +1,9 @@
-
 let n = Math.floor(Math.random() * 1000);
 console.log("Загадано число " + n);
 
 while (true) {
+    let userNumber = prompt("Введите число от 0 до 999")
+    console.log('Введено: ', userNumber)
     if (userNumber == "Пока!") {
         alert("До свидания!");
         break;
