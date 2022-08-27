@@ -10,6 +10,8 @@ while (true) {
     } 
     if (isNaN(userNumber))  {
         alert("Введено не число!");
+    } else if (userNumber == null) {
+        break;
     } else if (userNumber > 1000 || userNumber < 0) {
         alert("Введено число вне указанного диапазона!");
     } else if (userNumber < n) {
